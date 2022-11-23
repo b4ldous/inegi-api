@@ -7,12 +7,7 @@ const LineChartViv = ({data}) => {
     <h2>LineChart</h2>
     <p>Población vivienda</p>
     <ResponsiveContainer width="100%" height={400}>
-    <LineChart margin={{
-            top: 5,
-            right: 30,
-            left: 20,
-            bottom: 5,
-          }} data={data}>
+    <LineChart margin={{ top: 5, right: 20, bottom: 5, left: 50 }} data={data}>
           <Line type="monotone" dataKey="pob" stroke="#e0a37b" />
           <Line type="monotone" dataKey="viv" stroke="#0ef974" />
           

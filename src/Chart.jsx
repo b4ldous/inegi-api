@@ -18,7 +18,7 @@ const Chart = ({data}) => {
           data={data}
           margin={{
             top: 5,
-            right: 30,
+            right: 50,
             left: 20,
             bottom: 5,
           }}

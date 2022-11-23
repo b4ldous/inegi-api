@@ -10,7 +10,7 @@ const LineChartEstates = ({data}) => {
       <LineChart margin={{
             top: 5,
             right: 30,
-            left: 20,
+            left: 50,
             bottom: 5,
           }} data={data}>
          
